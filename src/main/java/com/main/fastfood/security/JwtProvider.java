@@ -67,7 +67,7 @@ public class JwtProvider {
 
     public String getUsernameFromJWT(String token) {
         Claims claims = Jwts.parser()
-                .setSigningKey(key) // Asymmetric encryption
+                .setSigningKey(key) // Symmetric encryption
                 .parseClaimsJws(token) // Retrieve all the claims thanks to the token.
                 .getBody(); // Store the information in the payload (the body of the JWT
         return claims.getSubject(); // Return the claim subject

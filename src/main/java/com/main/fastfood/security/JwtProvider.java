@@ -20,7 +20,7 @@ public class JwtProvider {
     /**
      * The PostConstruct annotation is used on a method that needs to be executed after
      * dependency injection is done to perform any initialization
-     * Every time the user signs in, it generate the same key(token) for that same user.
+     * Every time the user signs in, it generate the same key(secret salt) for that same user.
      * And not a new one every time each.
      *
      * The token signature(algorithm) is encoded in based64 (64 for 64 chars) : HS512

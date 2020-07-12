@@ -4,89 +4,63 @@
 
 # Spring | Fast-Food
 
-One Paragraph of project description goes here
+This is a fast-food application
+
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+Spring(boot) takes care of everything on the back end | server side.
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
 ```
-Give the example
-```
+1. git clone https://github.com/Evengelius/spring_fastfood.git your_desired_name
 
-And repeat
-
-```
-until finished
+2. // Change the Project SDK version to 14 | Intellij
+File | Project Structure | Project | Project SDK : 14.
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+## Functionnalities
 
-## Running the tests
+**CRUD - Create | Read | Update | Delete**<br />
+CRUD operations for each tables
 
-Explain how to run the automated tests for this system
+**Exception handling**<br />
+Errors on the server side are handled by various exceptions returning an HTTP status: 400 - 500 - 404
 
-### Break down into end to end tests
+**Authentication management**<br />
+Implementation of the JSON Web Token | JWT
 
-Explain what these tests test and why
+**Data mapping management**<br />
+Implementation of the Data Transfer Object or DTO, through MapStruct.
+
+## API Endpoints | Postman
+
+You need to be authenticated in order to use these endpoints.<br />
+Also, here the example stands for *commands*.<br />
+It can replaced by : drinks, burgers, or users.
+<br /><br />
+Finally, in order to use these endpoints, you need to be authenticated.
 
 ```
-Give an example
+GET
+       /api/commands
+       /api/commands/{id}
+POST
+       /api/commands
+PUT
+       /api/commands/{id}
+DELETE
+       /api/commands/6
+
+-----------------------------
+
+Authentication w/ JWT
+
+POST
+       /api/users/register
+POST
+       /api/users/login
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
-
+Once registered, it generates a JWT, that you need to put, *Authorization | Type : Bearer Token*, in order to be logged in.

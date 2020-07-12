@@ -69,4 +69,4 @@ Once registered, it generates a JWT, that you need to put, *Authorization | Type
 
 ## Screenshots | Demo
 
-[![Spring Boot](https://ibb.co/C5VXbhG)](https://spring.io)
+[![Authentication | Register](https://image.noelshack.com/fichiers/2020/29/1/1594596785-jwt-spring.png)]

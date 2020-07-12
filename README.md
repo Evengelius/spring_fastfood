@@ -51,11 +51,11 @@ POST
 PUT
        /api/commands/{id}
 DELETE
-       /api/commands/6
+       /api/commands/{id}
 
 -----------------------------
 
-Authentication w/ JWT
+Authentication | JWT
 
 POST
        /api/users/register
@@ -64,3 +64,7 @@ POST
 ```
 
 Once registered, it generates a JWT, that you need to put, *Authorization | Type : Bearer Token*, in order to be logged in.
+
+
+
+## Screenshots | Demo

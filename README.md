@@ -69,4 +69,4 @@ Once registered, it generates a JWT, that you need to put, *Authorization | Type
 
 ## Screenshots | Demo
 
-[![Authentication | Register](https://image.noelshack.com/fichiers/2020/29/1/1594596785-jwt-spring.png)]
+![Authentication | Register](https://image.noelshack.com/fichiers/2020/29/1/1594596785-jwt-spring.png)

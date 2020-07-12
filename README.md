@@ -81,6 +81,6 @@ Once registered, it generates a JWT, that you need to put, *Authorization | Type
 
 ![Authentication | Login](https://image.noelshack.com/fichiers/2020/29/1/1594596785-jwt-spring-login.png)
 
-**Authenticated | Show Endpoint **
+**Authenticated | Show Endpoint**
 
 ![Authentication | Authenticated](https://image.noelshack.com/fichiers/2020/29/1/1594596785-jwt-spring-authenticated.png)

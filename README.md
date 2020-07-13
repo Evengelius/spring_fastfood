@@ -42,7 +42,8 @@ CRUD operations on tables :<br />
 * Burger
 * Boisson
 * Serveur
-    * This table manage  the admin users : you need to be logged in as an admin in order to access the admin panel and perform admin tasks.
+    * This table manages the admin users.<br />
+      You need to be logged in as an admin in order to access the admin panel and perform admin tasks.
 
 **Exception handling**<br />
 Errors on the server side are handled by various exceptions returning an HTTP status: 400 - 500 - 404.

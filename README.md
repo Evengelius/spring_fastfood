@@ -37,7 +37,8 @@ Spring(boot) takes care of everything on the back end | server side.
 ## Functionnalities
 
 **CRUD - Create | Read | Update | Delete**<br />
-CRUD operations on each tables.
+CRUD operations on tables :
+    * Burgers
 
 **Exception handling**<br />
 Errors on the server side are handled by various exceptions returning an HTTP status: 400 - 500 - 404.

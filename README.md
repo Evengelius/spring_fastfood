@@ -37,7 +37,7 @@ Spring(boot) takes care of everything on the back end | server side.
 ## Functionnalities
 
 **CRUD - Create | Read | Update | Delete**<br />
-CRUD operations on tables :
+CRUD operations on tables :<br />
     * Burgers
 
 **Exception handling**<br />

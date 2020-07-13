@@ -43,7 +43,7 @@ CRUD operations on tables :<br />
 * Boisson
 * Serveur
     * This table manages the admin users.<br />
-      You need to be logged in as an admin in order to access the admin panel and perform admin tasks.
+      You need to be logged in as an admin in order to access the admin panel and perform admin tasks : angular side.
 
 **Exception handling**<br />
 Errors on the server side are handled by various exceptions returning an HTTP status: 400 - 500 - 404.

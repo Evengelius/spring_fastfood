@@ -11,6 +11,12 @@ This is a fast-food application
 
 Spring(boot) takes care of everything on the back end | server side.
 
+<ins>Before going further, please make sure you are processing the repositories in order as follow</ins> : 
+
+* [Php](https://github.com/Evengelius/php_fastfood)<br />
+* [Spring](https://github.com/Evengelius/spring_fastfood)<br />
+* [Angular](https://github.com/Evengelius/angular_fastfood)<br />
+
 ### Installing
 
 ```

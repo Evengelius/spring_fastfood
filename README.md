@@ -38,7 +38,11 @@ Spring(boot) takes care of everything on the back end | server side.
 
 **CRUD - Create | Read | Update | Delete**<br />
 CRUD operations on tables :<br />
-* Burgers
+* Commande
+* Burger
+* Boisson
+* Serveur
+** This table manage  the admin users : you need to be logged in as an admin in order to acces to the admin panel.
 
 **Exception handling**<br />
 Errors on the server side are handled by various exceptions returning an HTTP status: 400 - 500 - 404.

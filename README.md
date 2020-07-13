@@ -23,7 +23,7 @@ Spring(boot) takes care of everything on the back end | server side.
 1. git clone https://github.com/Evengelius/spring_fastfood.git your_desired_name
 
 2. // Change the Project SDK version to 14 | Intellij
-File | Project Structure | Project Settings: Project | Project SDK : 14
+   File | Project Structure | Project Settings: Project | Project SDK : 14
 
 3. Test it.
 ```

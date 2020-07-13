@@ -28,7 +28,7 @@ CRUD operations for each tables
 **Exception handling**<br />
 Errors on the server side are handled by various exceptions returning an HTTP status: 400 - 500 - 404
 
-**Authentication management**<br />
+**Authentication management | Spring Security**<br />
 Implementation of the JSON Web Token | JWT
 
 **Data mapping management**<br />

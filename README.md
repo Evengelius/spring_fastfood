@@ -24,6 +24,8 @@ Spring(boot) takes care of everything on the back end | server side.
 
 2. // Change the Project SDK version to 14 | Intellij
 File | Project Structure | Project Settings: Project | Project SDK : 14
+
+3. Test it.
 ```
 
 ## Functionnalities

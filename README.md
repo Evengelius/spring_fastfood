@@ -4,7 +4,7 @@
 
 # Spring | Fast-Food
 
-This is a fast-food application
+This is a fast-food application.
 
 
 ## Getting Started
@@ -37,13 +37,13 @@ Spring(boot) takes care of everything on the back end | server side.
 ## Functionnalities
 
 **CRUD - Create | Read | Update | Delete**<br />
-CRUD operations for each tables
+CRUD operations on each tables.
 
 **Exception handling**<br />
-Errors on the server side are handled by various exceptions returning an HTTP status: 400 - 500 - 404
+Errors on the server side are handled by various exceptions returning an HTTP status: 400 - 500 - 404.
 
 **Authentication management | Spring Security**<br />
-Implementation of the JSON Web Token | JWT
+Implementation of the JSON Web Token | JWT.
 
 **Data mapping management**<br />
 Implementation of the Data Transfer Object or DTO, through MapStruct.

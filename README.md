@@ -31,7 +31,7 @@ Spring(boot) takes care of everything on the back end | server side.
     spring.datasource.username=yourUsername
     spring.datasource.password=yourPassword
     
-4. Test it.
+4. Test it | Postman.
 ```
 
 ## Functionnalities

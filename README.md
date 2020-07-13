@@ -52,7 +52,7 @@ Errors on the server side are handled by various exceptions returning an HTTP st
 Implementation of the JSON Web Token | JWT.
 
 **Data mapping management**<br />
-Implementation of the Data Transfer Object or DTO, through MapStruct.
+Implementation of the Data Transfer Object or DTO, with MapStruct.
 
 ## API Endpoints | Postman
 

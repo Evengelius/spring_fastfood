@@ -25,7 +25,13 @@ Spring(boot) takes care of everything on the back end | server side.
 2. // Change the Project SDK version to 14 | Intellij
    File | Project Structure | Project Settings: Project | Project SDK : 14
 
-3. Test it.
+3. // application.properties
+   #Database Connection
+    spring.datasource.url= jdbc:mysql://localhost:3306/fastfood?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
+    spring.datasource.username=yourUsername
+    spring.datasource.password=yourPassword
+    
+4. Test it.
 ```
 
 ## Functionnalities

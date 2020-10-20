@@ -83,7 +83,7 @@ POST
        /api/users/login
 ```
 
-Once registered, it generates a JWT, that you need to put in, *Authorization | Type : Bearer Token*, in order to be logged in.
+Once logged in, it generates a JWT, that you need to put in, *Authorization | Type : Bearer Token*, in order to access the page that requires an authentication.
 
 
 
